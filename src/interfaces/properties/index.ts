@@ -1,4 +1,4 @@
-export interface IAddressRequest {
+export interface IAddressesRequest {
     district: string
     zipCode: string
     number?: string
@@ -9,6 +9,7 @@ export interface IAddressRequest {
 export interface IPropertyRequest {
     value: number
     size: number
-    address: IAddressRequest
+    address: IAddressesRequest
     categoryId: string
+    
 }

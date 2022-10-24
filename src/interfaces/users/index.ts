@@ -25,3 +25,22 @@ export interface IUserUpdate {
     email?: string
     password?: string
 }
+
+export interface IUserUpdateRequest {
+    name?: string
+    email?: string
+    password?: string
+}
+
+export interface IUserDeleteRequest {
+    isActive: boolean
+    
+}
+
+export interface IUserCreate {
+    name: string
+    email: string
+    password: string
+    isAdm: boolean
+    
+}
